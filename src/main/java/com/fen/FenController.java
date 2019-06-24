@@ -5,8 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class FenController {
-    @RequestMapping("/")
+    @RequestMapping("/tt")
     public String index(){
-        return "index.html";
+//        return "/html/login.html";
+        return "/index.html";
     }
 }
